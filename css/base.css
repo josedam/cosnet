@@ -1,0 +1,34 @@
+.derecha {
+    text-align:right;
+}
+
+.izquiera {
+    text-align:left;
+}
+
+.centro {
+    text-align:center;
+}
+
+.table td .tabla-sin-borde {
+  padding: 2px;
+  line-height: 20px;
+  vertical-align: bottom;
+  border-top: none;
+}
+
+.table td .tabla-sin-borde-derecha {
+    padding: 2px;
+    line-height: 20px;
+    text-align: right;
+    vertical-align: bottom;
+    border-top: none;
+  }
+  
+  .table td .tabla-sin-borde-centro {
+    padding: 2px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: bottom;
+    border-top: none;
+  }

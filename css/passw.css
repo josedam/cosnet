@@ -1,0 +1,53 @@
+.box {
+    margin-bottom: 15px;
+}
+.box > .heading {
+    height: 38px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid black; /*#DBDBDB;*/
+    background: url('/images/box.png') repeat-x;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    -khtml-border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
+}
+.box > .heading h1 {
+    margin: 0px;
+    padding: 11px 0px 0px 0px;
+    color: #003A88;
+    font-size: 16px;
+    float: left;
+}
+.box > .heading h1 img {
+    float: left;
+    margin-top: -1px;
+    margin-left: 3px;
+    margin-right: 8px;
+}
+.box > .heading .buttons {
+    float: right;
+    padding-top: 7px;
+    margin-right: 5px;
+}
+.box > .heading .buttons .button {
+    margin-left: 5px;
+}
+.box > .content h2 { 
+    text-transform: uppercase;
+    color: #FF802B;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 1px dotted #000000;    
+}
+.box > .content {
+    padding: 10px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    min-height: 300px;
+    overflow: auto;
+}
+
+
