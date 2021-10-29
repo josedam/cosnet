@@ -77,6 +77,7 @@ class UserController extends Controller
     {
 		$model=new User('create');
         $model->rol = User::ROL_USUARIO;
+		$model->esadmin = false;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);

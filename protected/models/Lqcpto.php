@@ -71,14 +71,14 @@ class Lqcpto extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'idlqcpto' => 'Idlqcpto',
-			'deno' => 'Deno',
-			'crub' => 'Crub',
-			'obse' => 'Obse',
-			'acm_dgi' => 'Acm Dgi',
-			'gen_ddor' => 'Gen Ddor',
-			'bcond' => 'Bcond',
-			'acm' => 'Acm',
+			'idlqcpto' => 'Concepto',
+			'deno' => 'Denominacion',
+			'crub' => 'C.Rubro',
+			'obse' => 'Observaciones',
+			'acm_dgi' => 'Acumula Dgi',
+			'gen_ddor' => 'Genera Deudor',
+			'bcond' => 'Bloque Condicion',
+			'acm' => 'Acumulador',
 			'lecop' => 'Lecop',
 		);
 	}
@@ -96,16 +96,17 @@ class Lqcpto extends CActiveRecord
 
 		$criteria->compare('idlqcpto',$this->idlqcpto);
 		$criteria->compare('deno',$this->deno,true);
-		$criteria->compare('crub',$this->crub);
-		$criteria->compare('obse',$this->obse,true);
-		$criteria->compare('acm_dgi',$this->acm_dgi,true);
-		$criteria->compare('gen_ddor',$this->gen_ddor,true);
-		$criteria->compare('bcond',$this->bcond,true);
-		$criteria->compare('acm',$this->acm,true);
-		$criteria->compare('lecop',$this->lecop);
+		// $criteria->compare('crub',$this->crub);
+		// $criteria->compare('obse',$this->obse,true);
+		// $criteria->compare('acm_dgi',$this->acm_dgi,true);
+		// $criteria->compare('gen_ddor',$this->gen_ddor,true);
+		// $criteria->compare('bcond',$this->bcond,true);
+		// $criteria->compare('acm',$this->acm,true);
+		// $criteria->compare('lecop',$this->lecop);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			'pagination'=>array('pageSize'=>100),
 		));
 	}
 }

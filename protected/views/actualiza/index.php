@@ -10,7 +10,7 @@ $this->menu=array(
     array('label'=>'Obras Sociales'    , 'url'=>array('doaccion','accion'=>'obras'      ,'titulo'=>'Actualizacion Obras Sociales')),
     array('label'=>'Nomenclador'       , 'url'=>array('doaccion','accion'=>'nomenclador','titulo'=>'Actualizacion Nomenclador')),
     array('label'=>'Aranceles'         , 'url'=>array('doaccion','accion'=>'arancel'    ,'titulo'=>'Actualizacion Aranceles')),
-    array('label'=>'Tabla de Conceptos', 'url'=>array('/tbcpto/admin')),
+    array('label'=>'Tabla de Conceptos', 'url'=>array('/lqcpto/admin')),
     array('label'=>'Liquidacion'       , 'url'=>array('liquidacion')),
 
 //    array('label'=>'Obras F.Arancel', 'url'=>array('obrafarn')),

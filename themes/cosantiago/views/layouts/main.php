@@ -270,13 +270,41 @@ header('Content-Type: text/html; charset=utf-8'); //esto es para los acentos
                   'visible'=>!Yii::app()->user->isGuest,
                   'linkOptions'=>array('class'=>'main-btn')
                 ),            
-                array(
-                  'label'=>'Seguro',
-                  'url'=>array('/seguro'),
-                  'visible'=>!Yii::app()->user->isGuest,
-                  'linkOptions'=>array('class'=>'main-btn')
-                ),                
+                // array(
+                //   'label'=>'Seguro',
+                //   'url'=>array('/seguro'),
+                //   'visible'=>!Yii::app()->user->isGuest,
+                //   'linkOptions'=>array('class'=>'main-btn')
+                // ),                
 
+                array(
+                  'label'=>'Comprobantes<b class="caret"></b>', 
+                  'url'=>'#', 
+                  'visible'=>!Yii::app()->user->isGuest,
+                  'itemOptions'=>array('class'=>'dropdown'),
+                  'linkOptions'=>array(
+                                   'class'=>'main-btn dropdown-toggle',
+                                   'data-toggle'=>'dropdown',
+                                 ),
+                                 
+                  'submenuOptions'=>array(
+                                     'class'=>'dropdown-menu',
+                            //         'style'=>'background-color: black;border:1px solid white;',
+                                    ),
+                  'items'=>array(
+                    array(
+                      'label'=>'Seguro Profesional',
+                      'url'=>array('/seguro'),
+                      'visible'=>!Yii::app()->user->isGuest,
+                    ),
+  
+                   array(
+                      'label'=>'Tratamiento de Residuos',
+                      'url'=>array('/certificadotr'),
+                      'visible'=>!Yii::app()->user->isGuest,
+                    ),  
+                  ),
+               ),                
                 array(
                   'label'=>'Recepcion', 
                   'url'=>array('/facrcp/create'), 

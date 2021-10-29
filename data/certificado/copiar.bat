@@ -1,0 +1,1 @@
+copy certificado.pdf %1.pdf
