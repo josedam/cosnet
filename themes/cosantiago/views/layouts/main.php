@@ -297,6 +297,12 @@ header('Content-Type: text/html; charset=utf-8'); //esto es para los acentos
                       'url'=>array('/seguro'),
                       'visible'=>!Yii::app()->user->isGuest,
                     ),
+                  
+                    array(
+                      'label'=>'Seguro Profesional (Anexo)',
+                      'url'=>array('/seguroAnexo'),
+                      'visible'=>!Yii::app()->user->isGuest,
+                    ),
   
                    array(
                       'label'=>'Tratamiento de Residuos',

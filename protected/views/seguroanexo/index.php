@@ -2,7 +2,7 @@
 /* @var $this SeguroController */
 
 $this->breadcrumbs=array(
-	'Certificado',
+	'Seguro',
 );
 ?>
 
@@ -12,14 +12,14 @@ $this->breadcrumbs=array(
 </div>
 <div class="span3">
 <?php if(Yii::app()->user->esOperador): ?>
-<?php  $this->renderPartial('/liquidacion/_selectprof',array('user'=>$user,'accion'=>'/certificadotr/profesional')); ?>
+<?php  $this->renderPartial('/liquidacion/_selectprof',array('user'=>$user,'accion'=>'/seguro/profesional')); ?>
 <?php endif; ?>
 </div>
 </div>
 
 
 <?php if($isok): ?>
-<h3>Certificado de tratamiento de Residuos</h3>
+<h3>Seguro de Responsabilidad Civil (Anexo)</h3>
 <div class='span12' style='height:450px;'>
 
 <object data='/<?php echo $archivo ?>#' 
@@ -33,6 +33,6 @@ En tal caso, solo <a href='/<?php echo $archivo ?>'>de click aqui para descargar
 </object>
 </div>
 <?php else: ?>
-<h3>Certificado de tratamiento de Residuos</h3>
+<h3>Seguro de Responsabilidad Civil (Anexo)</h3>
 <h4>No se registran datos</h4>
 <?php endif; ?>

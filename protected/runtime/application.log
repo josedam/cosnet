@@ -17588,3 +17588,1317 @@ Stack trace:
 REQUEST_URI=/index.php/lqcpto/update/2
 HTTP_REFERER=http://cosnet/index.php/lqcpto/admin
 ---
+2021/10/29 09:07:00 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1123?task=detalle&_=1635509218228
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:07:03 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1113?task=detalle&_=1635509222210
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:07:05 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1253?task=detalle&_=1635509225283
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:09:00 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1123?task=detalle&_=1635509340238
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:09:15 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1253?task=detalle&_=1635509355323
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:20:57 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1124?task=detalle&_=1635510056526
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:20:59 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1124?task=detalle&_=1635510058988
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:21:00 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1191?task=detalle&_=1635510060236
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:21:02 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1123?task=detalle&_=1635510062139
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:31:16 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:101)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1191?task=detalle&_=1635510674517
+in D:\website\cosnet\protected\views\obra\detalle.php (101)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:31:29 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:101)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1113?task=detalle&_=1635510689155
+in D:\website\cosnet\protected\views\obra\detalle.php (101)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:38:13 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1123?task=detalle&_=1635511092471
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:38:13 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1123?task=detalle&_=1635511092588
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:38:17 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1213?task=detalle&_=1635511096701
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2021/10/29 09:38:24 [error] [php] file_get_contents(): Peer certificate CN=`*.ferozo.com' did not match expected CN=`cosantiago.com.ar' (D:\website\cosnet\protected\views\obra\detalle.php:100)
+Stack trace:
+#0 D:\website\yii\framework\web\CBaseController.php(95): ObraController->renderInternal()
+#1 D:\website\yii\framework\web\CController.php(869): ObraController->renderFile()
+#2 D:\website\cosnet\protected\controllers\ObraController.php(241): ObraController->renderPartial()
+#3 unknown(0): ObraController->actionAjaxDetalle()
+#4 D:\website\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\website\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\website\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\website\yii\framework\web\filters\CFilterChain.php(133): ObraController->runAction()
+#8 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\website\yii\framework\web\filters\CFilterChain.php(130): EChangePasswordFilter->filter()
+#10 D:\website\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\website\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\website\yii\framework\web\filters\CInlineFilter.php(58): ObraController->filterAccessControl()
+#13 D:\website\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\website\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\website\yii\framework\web\CController.php(265): ObraController->runActionWithFilters()
+#16 D:\website\yii\framework\web\CWebApplication.php(282): ObraController->run()
+#17 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\website\cosnet\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/obra/ajaxdetalle/1113?task=detalle&_=1635511103509
+in D:\website\cosnet\protected\views\obra\detalle.php (100)
+in D:\website\cosnet\protected\controllers\ObraController.php (241)
+in D:\website\cosnet\index.php (13)
+2022/09/12 16:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img306.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img303.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img304.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img302.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img305.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img301.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img307.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img308.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img309.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img311.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img313.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img310.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img314.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img315.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img302.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img301.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img303.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img306.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img305.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img307.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img304.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img308.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img310.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img309.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img311.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img313.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img315.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img314.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img302.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img301.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img304.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img305.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img306.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img303.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img307.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img308.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img309.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img310.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img313.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img314.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img311.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/09/12 16:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img315.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img303.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img302.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img304.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img306.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img305.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img301.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img307.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img308.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img309.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img310.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img313.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img311.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img314.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img315.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img306.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img302.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img305.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img301.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img304.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img303.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img307.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img308.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img309.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img310.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img313.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img314.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img315.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img311.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img301.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img302.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img303.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img305.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img304.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img310.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img308.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img309.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img306.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img307.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img311.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img313.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img314.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---
+2022/10/03 19:47:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "documentos" solicitada.' in D:\website\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\website\yii\framework\web\CController.php(270): CController->missingAction('documentos')
+#1 D:\website\yii\framework\web\CWebApplication.php(282): CController->run('documentos')
+#2 D:\website\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('obra/documentos...')
+#3 D:\website\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\website\cosnet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/obra/documentos/img315.jpg
+HTTP_REFERER=http://cosnet/index.php/obra/lista
+---

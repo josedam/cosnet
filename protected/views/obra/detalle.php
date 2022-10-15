@@ -95,26 +95,46 @@ $opts = array('http' =>
   )
 );
 
+$urlBase='https://cosantiago.com.ar';
 $context  = stream_context_create($opts);
 try {
-  $result = file_get_contents('https://cosantiago.com.ar/normas-trabajo-backend/get_normas.php', false, $context);
-  // $result = CHtml::encode($result);  
 
+  set_error_handler(
+    function ($severity, $message, $file, $line) {
+        throw new ErrorException($message, $severity, $severity, $file, $line);
+    }
+  );
+  
+  $result = file_get_contents($urlBase.'/normas-trabajo-backend/get_normas.php', false, $context);
+  
+  // $result = CHtml::encode($result);  
   // $fichero = 'd:\kk\gente.txt';
   // file_put_contents($fichero, $result);
 
-  $letras  = array(chr(0xE1),chr(0xE9),chr(0xED),chr(0xF3),chr(0xFA),chr(0xD1),chr(0xF1),chr(0x96),chr(0xA0),chr(0xD8),chr(0xDA));
-  $codigos = array("&aacute;","&eacute;","&iacute;","&oacute;","&uacute;","&Ntilde;","&ntilde;", "-","", " ","&Uacute;");
-  $result  = str_replace($letras, $codigos, $result);
-
-  echo  $result ;
-  echo $obra->idnorma;   
+    $letras  = array(chr(0xE1),chr(0xE9),chr(0xED),chr(0xF3),chr(0xFA),chr(0xD1),chr(0xF1),chr(0x96),chr(0xA0),chr(0xD8),chr(0xDA),chr(0x3F));
+    $codigos = array("&aacute;","&eacute;","&iacute;","&oacute;","&uacute;","&Ntilde;","&ntilde;", "-","", " ","&Uacute;","O");
+    $result  = str_replace($letras, $codigos, $result);
+    
+    $result = str_replace('"documentos/','"'.$urlBase.'/documentos/', $result);
+    
+    echo $result ;
+    echo $obra->idnorma;   
  
 
 } catch (Exception $e) {
-  $result = 'Error - ';
+  echo $result = 'Error - ';
 }
+restore_error_handler();
 
+// function getRemoteFile($url, $timeout = 10) {
+//   $ch = curl_init();
+//   curl_setopt ($ch, CURLOPT_URL, $url);
+//   curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
+//   curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+//   $file_contents = curl_exec($ch);
+//   curl_close($ch);
+//   return ($file_contents) ? $file_contents : FALSE;
+// }
 ?>
       </div>
     </div>

@@ -19,6 +19,7 @@ $this->breadcrumbs=array(
 
 
 <?php if($isok): ?>
+<h3>Seguro de Responsabilidad Civil</h3>
 <div class='span12' style='height:450px;'>
 
 <object data='/<?php echo $archivo ?>#' 

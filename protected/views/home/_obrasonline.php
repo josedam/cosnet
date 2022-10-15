@@ -5,7 +5,7 @@
     <tbody>
       <tr>
         <td class="osonline-imagen">
-          <a href="http://app.iosep.gov.ar/wsrest" target="_blank" class="btn-iosep">IOSEP</a>
+          <a href="http://app.iosep.gob.ar/wsrest" target="_blank" class="btn-iosep">IOSEP</a>
         </td>
         <td>
         <div>

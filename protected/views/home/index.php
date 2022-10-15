@@ -15,7 +15,7 @@
    <?php endif; ?>
    
   
-   <?php  $this->renderPartial('/home/_coronaviruslink'); ?>
+   <?php /* $this->renderPartial('/home/_coronaviruslink');*/ ?>
 
 <?php  $this->renderPartial('/home/_obrasonline'); ?>
 
